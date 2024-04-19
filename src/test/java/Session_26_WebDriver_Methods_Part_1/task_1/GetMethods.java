@@ -8,6 +8,22 @@ public class GetMethods {
 
         WebDriver driver = new ChromeDriver();
 
+        /** get() */
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+        /** getTitle() */
+        System.out.println(driver.getTitle());   // output : OrangeHRM
+
+        /** getCurrentUrl() */
+        System.out.println(driver.getCurrentUrl());  // output : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+        /** getPageSource() */
+        System.out.println(driver.getPageSource());
+
+        /** getWindowHandle()  */
+        String windowId = driver.getWindowHandle();
+        System.out.println("Window ID : " +windowId);
+
+
     }
 }
