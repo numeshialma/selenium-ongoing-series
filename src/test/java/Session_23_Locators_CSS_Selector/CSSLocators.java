@@ -1,10 +1,10 @@
-package session_23_Locators_CSS_Selector;
+package Session_23_Locators_CSS_Selector;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CSSLocators1 {
+public class CSSLocators {
 
     public static void main(String[] args) {
 
@@ -15,11 +15,11 @@ public class CSSLocators1 {
         /** Maximize the browser window */
         driver.manage().window().maximize();
 
-        // tag class
-       // driver.findElement(By.cssSelector("input.search-box-text")).sendKeys("T-shirts");
+        // tag id
+        // driver.findElement(By.cssSelector("input#small-searchterms")).sendKeys("T-shirts");
 
         // or
-         driver.findElement(By.cssSelector(".search-box-text")).sendKeys("T-shirts");
+        driver.findElement(By.cssSelector("#small-searchterms")).sendKeys("T-shirts");
 
 
     }

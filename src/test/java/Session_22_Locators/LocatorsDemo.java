@@ -1,4 +1,4 @@
-package session_22_Locators;
+package Session_22_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

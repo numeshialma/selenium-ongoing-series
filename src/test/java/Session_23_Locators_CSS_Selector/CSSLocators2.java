@@ -1,4 +1,4 @@
-package session_23_Locators_CSS_Selector;
+package Session_23_Locators_CSS_Selector;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package session_21;
+package Session_21;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;

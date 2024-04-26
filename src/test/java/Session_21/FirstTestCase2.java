@@ -1,4 +1,4 @@
-package session_21;
+package Session_21;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
