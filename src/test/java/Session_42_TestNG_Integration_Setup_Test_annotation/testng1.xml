@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="Session_42_TestNG_Integration_Setup_Test_annotation.task_02.OrangeHRMTest"/>
+            <class name="Session_42_TestNG_Integration_Setup_Test_annotation.task_01.FirstTestCase4"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

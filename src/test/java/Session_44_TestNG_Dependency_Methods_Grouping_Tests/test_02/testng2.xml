@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="groupingSuite">
+
+    <test name="groupingTests">
+
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="regression"></exclude>
+            </run>
+        </groups>
+
+
+        <classes>
+
+            <class name="Session_44_TestNG_Dependency_Methods_Grouping_Tests.test_02.LoginTests"/>
+            <class name="Session_44_TestNG_Dependency_Methods_Grouping_Tests.test_02.SignUpTests"/>
+            <class name="Session_44_TestNG_Dependency_Methods_Grouping_Tests.test_02.PaymentTests"/>
+
+        </classes>
+
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

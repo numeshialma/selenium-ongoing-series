@@ -1,0 +1,29 @@
+package Session_42_TestNG_Integration_Setup_Test_annotation.task_01;
+
+import org.openqa.selenium.internal.Debug;
+import org.testng.annotations.Test;
+
+/*
+    1) Open App
+    2) Login
+    3) Logout
+ */
+public class FirstTestCase {
+
+    @Test
+    void openapp(){
+        System.out.println("opening application....");
+    }
+
+    @Test
+    void login(){
+        System.out.println("login to application....");
+    }
+
+    @Test
+    void logout(){
+        System.out.println("logout from application...");
+    }
+
+
+}
