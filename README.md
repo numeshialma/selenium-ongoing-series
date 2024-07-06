@@ -21,7 +21,6 @@ An ongoing series of Selenium automation projects aimed at exploring advanced te
 •	Screenshots, Headless, SSL, Ad Block, Extensions 
 •	Handling Broken Links, SVG Elements, Shadow DOM 
 •	Data Driven Testing | Working with MS-Excel 
-•	Data Driven Testing with MS-Excel 
 •	TestNG Integration & Setup | @Test annotation 
 •	TestNG Annotations | Types Of Assertions 
 •	TestNG | Dependency Methods | Grouping Tests
