@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite" parallel="tests">
+
+    <test parallel="classes" name="chromeTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="edgeTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="firefoxTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Session_45_TestNG_DataProviders_Parallel_Testing.task_02.ParamTest"></class>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
